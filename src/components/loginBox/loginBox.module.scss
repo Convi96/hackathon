@@ -1,0 +1,68 @@
+.container {
+  width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 19px 3px #787878;
+  box-shadow: 5px 5px 19px 3px #787878;
+  font-family: "Lato", sans-serif;
+  padding: 30px;
+  text-align: left;
+  .emoji {
+    font-size: 40px;
+  }
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .subtitle {
+    font-size: 14px;
+  }
+  .formFields {
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+  .fieldTitle {
+    font-size: 14px;
+  }
+  .fieldInput {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    padding: 8px 16px;
+    border: 1px solid rgba($color: #000000, $alpha: 0.3);
+  }
+  .authButton {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    padding: 8px 16px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+    img {
+      width: 24px;
+      margin-right: 6px;
+    }
+    &.otp {
+      color: white;
+      background-color: rgb(81, 115, 246);
+    }
+    &.speaker {
+      color: white;
+      background-color: #f44336;
+    }
+    &.secureCode {
+      color: white;
+      background-color: #009688;
+    }
+  }
+}
